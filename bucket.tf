@@ -1,8 +1,7 @@
 provider "aws" {
-        access_key = "ASIAWORVRMV5IJUM6Y52"
-        secret_key = "8U57rkFdgifPqL59dRCGyxgpCz4AY6ZbkDeZTyXw"
-        token = "FwoGZXIvYXdzECwaDO5OsXhZEq7e3eOztCLHAUu4oizf7pGXwrB4WHU17K1puv1/ay4e+FTBil0oOsqaT7isvAgE+8lTgw42wD9COzFguX/+prIVrbYBniZsVVf8suQrAtkoq9XmlYlaVD/jJ9B5gFO0A5MnXTswguZwHwDTIdkPIkbanTvd3PLiKJRpUUuFeQY/wigXkHByaeez8+D6+LC0wfko1aj79YJnypjI8DGngoI0vanHzWQy/rCjcRvVhpLEaaAnqdzsihnAaBOzoQb9HMo/SEBUreahtt56JqStxrEowtSZ9wUyLZrnj+6sk7sOxinF+q7PRXtw665CXYUkbq39Gw5QkYN2M9hlIz02MX16eifI5g=="
-        region = "us-east-1"
+        access_key = "******"
+	secret_key = "******"
+	region = "us-east-1"
 }
 
 resource "aws_s3_bucket" "buck" {
